@@ -2,12 +2,13 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
+   
 }
 
-img {
-    width: 100px;
-    height: 100px;
-}
+/*img {
+    width: 80px;
+    height: 80px;
+}*/
 
 .container {
     display: grid;
@@ -34,7 +35,9 @@ nav {
     justify-content: center;
     gap: 5%;
     padding-left: 5%;
+    
 }
+
 
 .hide-menu {
     padding-right: 15px;
@@ -101,8 +104,8 @@ nav ul {
     grid-template-columns: 15% 85%;
 }
 img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 /*
@@ -150,8 +153,8 @@ main {
 
 
     img {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
     }
 }
 .container {
@@ -180,11 +183,13 @@ nav {
 nav .logo-menu {
     padding-left: 10%;
     font-size: 1vw;
+    padding: 20px;
+    margin: 60px;
 }
 
 
 nav li {
-    padding: 5%;
+    padding: 20px;
 }
 
 
