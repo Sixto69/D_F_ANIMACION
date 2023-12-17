@@ -2,6 +2,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
+    background-color: antiquewhite;
 
 }
 
@@ -14,6 +15,11 @@ body {
         "footer";
     height: 100vh;
 }
+h2{
+    text-align: center;
+   
+}
+
 
 nav {
     background-color: rgb(23, 98, 168);
@@ -104,6 +110,7 @@ nav ul {
 img {
     width: 100px;
     height: 100px;
+    text-align: center;
 }
 
 
