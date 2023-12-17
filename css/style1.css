@@ -15,9 +15,9 @@ body {
         "footer";
     height: 100vh;
 }
-h2{
+h2, p{
     text-align: center;
-   
+  
 }
 
 
@@ -162,7 +162,7 @@ p{
 }
 
 nav {
-    background-color: grey;
+    background-color: mediumpurple;
     color: whitesmoke;
     grid-area: nav;
     display: flex;
