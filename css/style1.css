@@ -162,7 +162,7 @@ p{
 }
 
 nav {
-    background-color: mediumpurple;
+    background-color: rgb(228, 104, 104);
     color: whitesmoke;
     grid-area: nav;
     display: flex;
