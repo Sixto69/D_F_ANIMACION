@@ -14,11 +14,14 @@ body {
         "main"
         "footer";
     height: 100vh;
-   
+
 }
-h2, p{
+
+h2,
+p {
     text-align: center;
-  
+
+
 }
 
 
@@ -30,7 +33,7 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-   
+
 }
 
 
@@ -77,8 +80,8 @@ footer {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-   
-    
+
+
 }
 
 
@@ -86,8 +89,28 @@ footer {
     .hide-menu {
         display: none;
     }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding-right: 20px;
+        gap: 30px;
+    }
+
+
+    .container {
+        display: grid;
+        grid-template-areas:
+            "nav nav"
+            "section main"
+            "footer footer"
+        ;
+        grid-template-columns: 15% 85%;
+    }
 }
 
+/*
 nav ul {
     list-style: none;
     display: flex;
@@ -107,6 +130,7 @@ nav ul {
     grid-template-columns: 15% 85%;
 }
 
+*/
 
 img {
     width: 100px;
@@ -138,7 +162,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    
+
 }
 
 
@@ -151,15 +175,12 @@ img {
 .container {
     display: grid;
     grid-template-areas:
+        "nav section"
         "nav main"
-        "section main"
-        "footer footer "
+        "footer main"
 
     ;
     grid-template-columns: 15% 85%;
-}
-p{
-    text-align: center;
 }
 
 nav {
@@ -214,13 +235,12 @@ main {
 }
 
 footer {
-    background-color:chocolate;
+    background-color: chocolate;
     color: rgb(245, 245, 245);
-  
-    
+    color: blue;
+
+
 }
-
-
 
 @media screen and (max-width: 576px) {
     nav ul {
@@ -242,4 +262,3 @@ footer {
     background-color: blue;
 
 }
-
